@@ -51,9 +51,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+This are some code snippets that taught me:
 
 ```html
     <link
@@ -120,7 +118,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to continue focusing on new technologies like React.js, Node.js, SASS, Bootstrap,etc in future projects.
 
 
 ### Useful resources
@@ -137,5 +135,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I got really good help from Youtube Channels like CodeWithHarry, freeCodeCamp, etc also with Udemy Courses 
 
