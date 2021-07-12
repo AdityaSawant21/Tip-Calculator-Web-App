@@ -56,17 +56,63 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.tip-selector__tips label {
+  cursor: pointer;
+  background-color: #00494d;
+  color: white;
+  font-weight: 700;
+  width: calc(100% - 30px);
+  height: calc(100% - 20px);
+  min-height: 36px;
+  font-size: 24px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.tip-selector__tips input[type="radio"]:checked + label {
+  background-color: #26c0ab;
+  color: #00494d;
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+//Check to see if this input is empty or less than or equal to 1
+    if (numOfPeople === "" || numOfPeople <= 1) {
+      numOfPeople = 1;
+      document.getElementById("each").style.display = "none";
+    } else {
+      document.getElementById("each").style.display = "block";
+    }
+  
+    //Calculate tip
+    var total = (billAmt * serviceQual) / numOfPeople;
+    //round to two decimal places
+    total = Math.round(total * 100) / 100;
+    //next line allows us to always have two digits after decimal point
+    total = total.toFixed(2);
+    //Display the tip
+    document.getElementById("totalTip").style.display = "block";
+    document.getElementById("tip").innerHTML = total;
+  
+  }
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
