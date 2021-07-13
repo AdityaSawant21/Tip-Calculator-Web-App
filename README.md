@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/tip-calculator-web-app-using-html-css-and-javascript-PQ9IR6F2l)
 - Live Site URL: [Add live site URL here](https://adi123-bit.github.io/Tip-Calculator-Web-App/)
 
 ## My process
