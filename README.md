@@ -1,5 +1,7 @@
 # Frontend Mentor - Tip calculator app solution
 
+
+# Link: https://adityasawant21.github.io/Tip-Calculator-Web-App/
 This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -136,7 +138,6 @@ I want to continue focusing on new technologies like React.js, Node.js, SASS, Bo
 ## Author
 
 - LinkedIn - [Aditya Sawant](https://www.linkedin.com/in/aditya-a-sawant/)
-- Frontend Mentor - [@adi123-bit](https://www.frontendmentor.io/profile/adi123-bit)
 - Twitter - [@AdityaASawant1](https://www.twitter.com/AdityaASawant1)
 
 ## Acknowledgments
